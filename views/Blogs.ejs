@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Welcome to Ace UiPath! Discover the latest trends and tips on RPA, technology, and productivity. Stay updated with our informative and engaging blog posts." />
+    <meta name="google-site-verification" content="google2dc0ffb26c71dd67.html" />
+
+    <title>UiPath Blogs</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://images.ctfassets.net/5965pury2lcm/4425FsZbwrsJdhttHkPlTE/61068f00208417f2017bce78bf2114b4/favicon-32x32.png" />
+    <link rel="stylesheet" href="/stylesheets/blogs.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  </head>
+  <body>
+    <!-- Nav Start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light sticky-top"
+      style="background-color: #ffffff"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            id="logo_img"
+            src="../images/UiPath logo.png"
+            alt="UiPath Ace Blogs Logo"
+            href="../"
+          />
+
+          <!-- <span class="logo_text">Ace Blogs</span> -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img src="../images/menu.png" alt="Menu" width="24" height="24" />
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/Blogs"
+                >Blogs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/Gallery"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/Teams">Team</a>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav End -->
+
+    <!-- categories Start -->
+    <div class="category-name">
+      <h1>#all</h1>
+      <p>Discover more categories and expand your knowledge!</p>
+    </div>
+    <div class="categories-menu">
+      <ul style="list-style-type: none">
+        <li><a href="#">#all</a></li>
+        <li><a href="#">#Beginner</a></li>
+        <li><a href="#">#RPAbasics</a></li>
+        <li><a href="#">#Uipath Tips</a></li>
+        <li><a href="#">#Uipath Troubleshooting</a></li>
+        <li><a href="#">#Optmize Automation</a></li>
+        <li><a href="#">#Uipath Benefits</a></li>
+      </ul>
+    </div>
+    <!-- categories End -->
+
+    <!-- Container Start  -->
+    <div class="container">
+      <h2 class="sub-title">Recent posts:</h2>
+      <div class="main_container">
+        <% posts.forEach(post => { %>
+        <div class="card_container">
+          <a href="/blogs/<%= post.slug %>" class="card_img">
+            <img  src="<%= post.imgSrc %>"
+                  alt="card"
+                  class="card_image"
+                  loading="lazy" />
+          </a>
+          <div class="card_title_container">
+            <a href="/blogs/<%= post.slug %>" class="card_category">
+              <p><%= post.category %></p>
+            </a>
+            <a href="/blogs/<%= post.slug %>" class="card_title">
+              <h2><%= post.title %></h2>
+            </a>
+          </div>
+          <div class="card_foot_container">
+            <div class="card_author_container">
+              <div class="author_info">
+                <span class="author_name"><%= post.author %></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <% }); %>
+      </div>
+    </div>
+
+      <div class="footer"></div>
+    </div>
+    <!-- Container End  -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

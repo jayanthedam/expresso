@@ -1,0 +1,124 @@
+[
+    {
+        "role": "Mentors:",
+        "class": "mentor",
+        "members": [
+            {
+                "name": "T Srinivasa Rao",
+                "Id": "https://www.linkedin.com/in/prof-t-srinivasa-rao-40a1b687/",
+                "pic": "/Images/teams/T Srinivasa Rao.jpg",
+                "role": "Director - Training and Placements"
+            },
+            {
+                "name": "Y V S Durga Prasad",
+                "Id": "https://www.linkedin.com/in/y-v-s-durga-prasad-76214928b/",
+                "pic": "/Images/teams/Y V S Durga Prasad.jpg",
+                "role": "Placement Officer"
+            },
+            {
+                "name": "Krishnanand S H",
+                "Id": "https://www.linkedin.com/in/krishnanandsh/",
+                "pic": "/Images/teams/Krishnanand S H.png",
+                "role": "UiPath Educator"
+            }
+        ]
+    },
+    {
+        "role": "Student Champions:",
+        "class": "champ",
+        "members": [
+            {
+                "name": "P Praneetha",
+                "Id": "https://www.linkedin.com/in/praneetha-potharaju/",
+                "pic": "/Images/teams/Praneetha.png",
+                "role": "2023-2024"
+            },
+            {
+                "name": "Aarthi Mupparthy",
+                "Id": "https://www.linkedin.com/in/m-aarthi/",
+                "pic": "/Images/teams/Aarthi Mupparthy.jpg",
+                "role": "2022-2023"
+            }
+        ]
+    },
+    {
+        "role": "Co-Organizers:",
+        "class": "org",
+        "members": [
+            {
+                "name": "S Ronak Jain",
+                "Id": "https://www.linkedin.com/in/sancheti-ronak-jain-60a42222b/",
+                "pic": "/Images/teams/S Ronak-Jain.png",
+                "role": "Ex Core team member"
+            },
+            {
+                "name": "E Jayanth",
+                "Id": "https://www.linkedin.com/in/jayanth-edam/",
+                "pic": "/Images/teams/E Jayanth.jpg",
+                "role": "Web Developer"
+            }
+        ]
+    },
+    {
+        "role": "Core Team Members:",
+        "class": "core",
+        "members": [
+            {
+                "name": "Tarun Vuppala",
+                "Id": "https://www.linkedin.com/in/tarun26/",
+                "pic": "/Images/teams/Tarun.jpg",
+                "role": "Web Developer"
+            },
+            {
+                "name": "Manchikanti Varun",
+                "Id": "https://www.linkedin.com/in/varun-manchikanti/",
+                "pic": "/Images/teams/Varun.jpg",
+                "role": "Content Creator"
+            },
+            {
+                "name": "Devupalli Jayanth",
+                "Id": "https://www.linkedin.com/in/devupalli-jayanth-37b22b257/",
+                "pic": "/Images/teams/Jayanth D.jpg",
+                "role": "Web Developer"
+            },
+            {
+                "name": "Madhav Madupu",
+                "Id": "https://www.linkedin.com/in/madhavmadupu/",
+                "pic": "/Images/teams/Madhav.png",
+                "role": "Web Developer"
+            },
+            {
+                "name": "Vinay Bolloju",
+                "Id": "https://www.linkedin.com/in/vinay-bolloju-9b7680278/",
+                "pic": "/Images/teams/Vinay.png",
+                "role": "Core Team member"
+            }
+        ]
+    },
+    {
+        "role": "UiPath Club Members:",
+        "class": "team",
+        "members": [
+            {
+                "name": "Tharuni Kadudula",
+                "Id": "http://www.linkedin.com/in/tharuni-kadudula",
+                "pic": "/Images/teams/Tharuni.jpg"
+            },
+            {
+                "name": "J Praneeth",
+                "Id": "https://www.linkedin.com/in/praneeth-j/",
+                "pic": "/Images/teams/Praneeth.jpg"
+            },
+            {
+                "name": "Tejaswi Marka",
+                "Id": "https://www.linkedin.com/in/tejaswi-marka-398ab3261/",
+                "pic": "/Images/teams/Tejaswi.jpg"
+            },
+            {
+                "name": "Shivathmika Bollapally",
+                "Id": "https://www.linkedin.com/in/shivathmika-bollapally-037547264/",
+                "pic": "/Images/teams/Shivathmika.jpg"
+            }
+        ]
+    }
+]

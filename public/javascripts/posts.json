@@ -1,0 +1,30 @@
+[
+    {
+        "slug": "blog-1",
+        "imgSrc": "images/RPA.jpg",
+        "category": "Beginner",
+        "title": "What is RPA?",
+        "author": "P Praneetha"
+    },
+    {
+        "slug": "blog-2",
+        "imgSrc": "images/why.jpg",
+        "category": "Technology",
+        "title": "Why choose UiPath for RPA?",
+        "author": "P Praneetha"
+    },
+    {
+        "slug": "blog-3",
+        "imgSrc": "images/know.jpg",
+        "category": "Beginner",
+        "title": "Things to know before starting journey in Uipath",
+        "author": "P Praneetha"
+    },
+    {
+        "slug": "blog-4",
+        "imgSrc": "images/mistakes.jpg",
+        "category": "Technology",
+        "title": "Common mistakes in UiPath",
+        "author": "Praneetha"
+    }
+]
